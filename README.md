@@ -19,3 +19,17 @@ This repository contains my work during the RAG Internship.
 - LangChain
 - ChromaDB
 - LangGraph
+
+## Key Learnings
+
+Understanding of embeddings and vector representations
+Semantic similarity using cosine similarity
+Basics of Retrieval-Augmented Generation (RAG)
+API integration using Groq and Gemini
+GitHub project management and documentation
+
+## Internship Start Date
+01 June 2026
+
+Mentor
+Ajith Hariharan
