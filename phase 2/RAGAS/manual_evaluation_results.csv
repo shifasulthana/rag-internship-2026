@@ -1,0 +1,28 @@
+question,answer_preview,answer_length,contexts_retrieved,answer_exists,contexts_exist,answer_reasonable,contains_info,overall_score
+What is artificial intelligence?,"Artificial intelligence (AI) is the capability of computational systems to perform tasks typically associated with human intelligence, such as learnin...",492,5,5,5,5,5,5.0
+What are the traditional goals of AI research?,"The traditional goals of AI research include learning, reasoning, knowledge representation, planning, natural language processing, and perception, as ...",179,5,5,5,5,5,5.0
+What is machine learning?,Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn...,251,5,5,5,5,5,5.0
+What are the three main approaches to machine learning?,"The three main approaches to machine learning are:
+
+1. Supervised learning: The computer is presented with example inputs and their desired outputs, g...",611,5,5,5,5,5,5.0
+What is deep learning?,Deep learning refers to a class of machine learning algorithms in which a hierarchy of layers is used to transform input data into a progressively mor...,325,5,5,5,5,5,5.0
+How do deep learning neural networks differ from traditional...,"Deep learning neural networks differ from traditional machine learning in that they do not require hand-crafted feature engineering. Instead, deep lea...",499,5,5,5,5,5,5.0
+What is a neural network?,A neural network is a group of interconnected units called neurons that send signals to one another. Neurons can be either biological cells or mathema...,502,5,5,5,5,5,5.0
+What are the components of a neural network?,"The components of a neural network include neurons (also known as units) that send signals to one another. In a biological neural network, these neuro...",495,5,5,5,5,5,5.0
+What is a large language model?,"A large language model (LLM) is a neural network trained on a vast amount of text for natural language processing tasks, especially language generatio...",296,5,5,5,5,5,5.0
+How are large language models trained?,Large language models (LLMs) are trained on a vast amount of text for natural language processing tasks. They are typically based on the transformer a...,455,5,5,5,5,5,5.0
+What is generative artificial intelligence?,"Generative artificial intelligence (GenAI) is a subfield of artificial intelligence (AI) that uses generative models to generate text, images, videos,...",389,5,5,5,5,5,5.0
+What can generative AI create?,"Generative AI can create text, images, videos, audio, software code, and other forms of data. It can also be used for tasks such as music composition,...",331,5,5,5,5,5,5.0
+What is natural language processing?,Natural language processing (NLP) is the processing of natural language information by a computer. NLP is a subfield of computer science and is closel...,321,5,5,5,5,5,5.0
+What are some applications of NLP?,"Some applications of NLP include:
+
+1. Automatic summarization (text summarization)
+2. Grammatical error correction
+3. Logic translation
+4. Machine tra...",407,5,5,5,5,5,5.0
+What is computer vision?,Computer vision is an interdisciplinary field that deals with how computers can be made to gain high-level understanding from digital images or videos...,358,5,5,5,5,5,5.0
+What tasks does computer vision try to automate?,Computer vision tries to automate tasks that the human visual system can do.,76,5,5,5,5,5,5.0
+What is reinforcement learning?,Reinforcement learning (RL) is concerned with how an intelligent agent should take actions in a dynamic environment in order to maximize a reward sign...,553,5,5,5,5,5,5.0
+How does an agent learn in reinforcement learning?,"In reinforcement learning, an agent learns by interacting with its environment in discrete time steps. At each time step, the agent receives the curre...",738,5,5,5,5,5,5.0
+What is retrieval-augmented generation?,Retrieval-augmented generation (RAG) is a technique that enables large language models (LLMs) to retrieve and incorporate new information from externa...,445,5,5,5,5,5,5.0
+Why is RAG useful for answering questions about documents?,RAG is useful for answering questions about documents because it enables large language models (LLMs) to retrieve and incorporate new information from...,617,5,5,5,5,5,5.0
