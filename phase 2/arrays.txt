@@ -1,0 +1,56 @@
+# Evaluation data for RAG testing
+
+test_questions = [
+ 
+    "What is machine learning?",
+    "What is deep learning?",
+    "What is artificial intelligence?",
+    "What is natural language processing?",
+    "What is computer vision?",
+    "What is a neural network?",
+    "What is reinforcement learning?",
+    "What is a large language model?",
+    "What is generative AI?",
+    "What is retrieval-augmented generation?",
+    "What is the difference between supervised and unsupervised learning?",
+    "What are the main applications of computer vision?",
+    "What is the purpose of the transformer architecture in AI?",
+    "What is the role of attention mechanism in transformers?",
+    "What is the difference between RAG and fine-tuning?",
+    "What are the main types of machine learning?",
+    "What is the difference between neural networks and traditional algorithms?",
+    "Who is considered the father of artificial intelligence?",
+    "What was the name of the first AI program?",
+    "When was the term 'machine learning' coined?",
+]
+
+ground_truths = [
+ 
+    "Machine learning is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalize to unseen data.",
+    "Deep learning refers to a class of machine learning algorithms in which a hierarchy of layers is used to transform input data into a progressively more abstract and composite representation.",
+    "Artificial intelligence is the capability of computational systems to perform tasks typically associated with human intelligence, such as learning, reasoning, problem-solving, perception, and decision-making.",
+    "Natural language processing is a subfield of artificial intelligence that deals with the interaction between computers and human language, enabling computers to read, write and communicate in human languages.",
+    "Computer vision is an interdisciplinary field that deals with how computers can be made to gain high-level understanding from digital images or videos, seeking to automate tasks that the human visual system can do.",
+    "A neural network is a group of interconnected units called neurons that send signals to one another, used in machine learning to approximate nonlinear functions and solve artificial intelligence problems.",
+    "Reinforcement learning is a machine learning paradigm concerned with how an intelligent agent should take actions in a dynamic environment in order to maximize a reward signal.",
+    "A large language model is a neural network trained on a vast amount of text for natural language processing tasks, especially language generation, typically based on transformer architecture.",
+    "Generative AI is a subfield of artificial intelligence that uses generative models to generate text, images, videos, audio, or other forms of data based on learned patterns from training data.",
+    "Retrieval-augmented generation is a technique that enables large language models to retrieve and incorporate new information from external data sources before generating responses.",
+    
+  
+    "Supervised learning uses labeled data where the desired output is known, while unsupervised learning works with unlabeled data to find hidden patterns or structures without guidance.",
+    "Computer vision applications include automatic inspection in manufacturing, medical image analysis, autonomous vehicles, facial recognition, surveillance, and object detection.",
+    "The transformer architecture is a neural network architecture that uses self-attention mechanisms to process sequential data, enabling better parallelization and handling of long-range dependencies in language.",
+    "The attention mechanism in transformers allows the model to weigh the importance of different parts of the input sequence when making predictions, enabling better contextual understanding.",
+    "RAG retrieves relevant information from external sources during generation, while fine-tuning involves retraining the model on new data. RAG is more efficient for updating knowledge.",
+    
+
+    "Machine learning is traditionally divided into three main categories: supervised learning (using labeled data), unsupervised learning (finding patterns in unlabeled data), and reinforcement learning (learning through rewards and punishments).",
+    "Neural networks learn by adjusting weights between interconnected nodes through training, while traditional algorithms follow explicit programmed rules. Neural networks can automatically learn features from data, whereas traditional algorithms require manually engineered features.",
+    
+  
+    "John McCarthy is widely considered the father of artificial intelligence, having coined the term and organized the Dartmouth Conference in 1956 that founded AI as an academic discipline.",
+    "The Logic Theorist, created by Allen Newell and Herbert A. Simon in 1956, is considered the first AI program and was presented at the Dartmouth Conference.",
+    "The term 'machine learning' was coined in 1959 by Arthur Samuel, an IBM employee and pioneer in computer gaming and artificial intelligence.",
+]
+
