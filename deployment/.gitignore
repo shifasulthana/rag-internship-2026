@@ -1,0 +1,26 @@
+# Environment variables
+.env
+
+# Virtual environment
+rag_env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Chroma databases
+phase4_chroma_db/
+phase4_chroma_db_backup/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# Temporary notebook
+Test.ipynb
+
+# Operating system files
+.DS_Store
+Thumbs.db
