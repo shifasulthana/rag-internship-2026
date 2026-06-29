@@ -52,17 +52,26 @@ if not GROQ_API_KEY:
     raise ValueError("GROQ_API_KEY not found in .env")
 
 # ============================================================
+
 # Configuration — matches Hybrid_Chunking.ipynb exactly
+
 # ============================================================
+
+BASE_DIR = Path(__file__).resolve().parent
+
 EMBEDDING_MODEL = "models/gemini-embedding-001"
 LLM_MODEL       = "llama-3.3-70b-versatile"
-CHROMA_PATH     = "phase4_chroma_db"
+
+CHROMA_PATH     = BASE_DIR / "phase4_chroma_db"
+WIKI_DIR        = BASE_DIR / "wiki_docs"
+
 COLLECTION_NAME = "wiki_rag_phase4"
-WIKI_DIR        = Path("wiki_docs")
+
 CHUNK_SIZE      = 1800
 CHUNK_OVERLAP   = 200
+
 BATCH_SIZE      = 20
-BATCH_SLEEP     = 65   # seconds between batches (safe margin for 100 req/min limit)
+BATCH_SLEEP     = 65
 
 # ============================================================
 # Initialize Models
