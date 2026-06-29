@@ -96,7 +96,6 @@ overrides==7.7.0
 packaging==23.2
 pandas==2.3.3
 pillow==10.4.0
-pkg_resources==0.0.0
 posthog==6.9.3
 propcache==0.4.1
 proto-plus==1.27.2
