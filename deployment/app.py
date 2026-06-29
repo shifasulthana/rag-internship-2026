@@ -119,7 +119,7 @@ with st.sidebar:
     st.markdown(f"**LLM:** `llama-3.3-70b-versatile`")
     st.markdown(f"**Vector DB:** ChromaDB")
     st.markdown(f"**Keyword Search:** BM25")
-    st.markdown(f"**Chunks in DB:** {rag_pipeline.vectordb._collection.count()}")
+    st.markdown(f"**Chunks in DB:** 349")
     st.markdown(f"**Retrieval:** 3 vector + 2 BM25")
     st.divider()
     st.markdown("**📚 Knowledge Base:**")
